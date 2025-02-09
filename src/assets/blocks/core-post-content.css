@@ -1,0 +1,17 @@
+.wp-block-post-content a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: #10a2f5;
+}
+.wp-block-post-content p,
+.wp-block-post-content ol,
+.wp-block-post-content ul,
+.wp-block-post-content figure,
+.wp-block-post-content pre,
+.wp-block-post-content blockquote {
+  margin: 1em 0 !important;
+}
+.wp-block-post-content :first-child {
+  margin-top: 0 !important;
+}

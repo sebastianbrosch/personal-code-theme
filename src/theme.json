@@ -1,0 +1,162 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "custom": false,
+      "palette": [
+        {
+          "slug": "black",
+          "color": "#353535",
+          "name": "Black"
+        },
+        {
+          "slug": "gray",
+          "color": "#6b6b6b",
+          "name": "Gray"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "750px",
+      "wideSize": "750px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "100",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Thin.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "100",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-ThinItalic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "200",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-ExtraLight.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "200",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-ExtraLightItalic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Light.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-LightItalic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Italic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Medium.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-MediumItalic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-Bold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-BoldItalic.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-ExtraBold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontStyle": "italic",
+              "fontWeight": "900",
+              "src": [
+                "file:./assets/fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"JetBrains Mono\", monospace",
+          "name": "JetBrains Mono",
+          "slug": "system-default"
+        }
+      ]
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    }
+  ]
+}
