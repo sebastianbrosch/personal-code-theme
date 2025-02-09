@@ -162,6 +162,11 @@
       ]
     }
   },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--jetbrains-mono)"
+    }
+  },
   "templateParts": [
     {
       "area": "header",
