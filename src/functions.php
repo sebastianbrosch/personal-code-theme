@@ -46,7 +46,6 @@ if (function_exists('personal_code_block_stylesheets') === false) :
       'core/heading',
       'core/navigation',
       'core/post-content',
-      'core/post-date',
       'core/post-excerpt',
       'core/post-template',
       'core/post-terms',
