@@ -43,10 +43,8 @@ if (function_exists('personal_code_block_stylesheets') === false) :
   function personal_code_block_stylesheets() {
     $blocks = [
       'core/code',
-      'core/heading',
       'core/navigation',
       'core/post-content',
-      'core/post-excerpt',
       'core/post-template',
       'core/post-terms',
       'core/post-title',

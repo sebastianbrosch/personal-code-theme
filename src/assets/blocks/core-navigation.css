@@ -2,8 +2,6 @@
   margin: 1.5rem 0;
 }
 .wp-block-navigation a:hover {
-  font-weight: 700;
-  text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
   text-decoration-color: #10a2f5;

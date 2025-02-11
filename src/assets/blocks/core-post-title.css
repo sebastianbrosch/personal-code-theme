@@ -1,10 +1,8 @@
 h2.wp-block-post-title {
-  font-size: 1.3em;
   margin: 0;
 }
 h2.wp-block-post-title a {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 3px;
   text-underline-offset: 5px;
   text-decoration-color: #10a2f5;
 }
