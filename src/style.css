@@ -21,7 +21,7 @@ footer a {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
-  text-decoration-color: #10a2f5;
+  text-decoration-color: #efbf38;
 }
 ::selection {
   background-color: #e5ffc3;
@@ -30,4 +30,31 @@ footer a {
 code[class*='language-'],
 pre[class*='language-'] {
   font-family: 'JetBrains Mono', monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+p.has-background {
+  padding: 1.25em;
+}
+code:has(a) {
+  border-bottom: 3px solid #efbf38;
+}
+code > a {
+  text-decoration: none !important;
+}
+.wp-block-cb-slide {
+  padding: 0 !important;
 }

@@ -44,10 +44,8 @@ if (function_exists('personal_code_block_stylesheets') === false) :
     $blocks = [
       'core/code',
       'core/navigation',
-      'core/post-content',
       'core/post-template',
       'core/post-terms',
-      'core/post-title',
       'core/quote'
     ];
 
