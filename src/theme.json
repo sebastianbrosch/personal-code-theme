@@ -23,6 +23,9 @@
       "contentSize": "750px",
       "wideSize": "750px"
     },
+    "spacing": {
+      "units": ["px","em","rem"]
+    },
     "typography": {
       "defaultFontSizes": false,
       "dropCap": false,
@@ -321,6 +324,16 @@
       }
     },
     "elements": {
+      "caption": {
+        "color": {
+          "text": "var(--wp--preset--color--gray)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)",
+          "fontStyle": "italic",
+          "fontWeight": "300"
+        }
+      },
       "h1": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)"
